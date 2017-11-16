@@ -5,8 +5,9 @@ def clip1():
     
     arcpy.Clip_management()
 
-def density(): #FIRST CODE USED
+#FIRST CODE USED
 
+def density(): 
     my_items = collections.defaultdict(set)
     for row in cur1:
         id = row.getValue(CaseField)
